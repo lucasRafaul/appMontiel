@@ -38,11 +38,6 @@
       </div>
     </div>
   </div>
-<style scoped>
-.text-matte-dark {
-  color: #23272f;
-}
-</style>
 </template>
 
 <script setup>
@@ -83,6 +78,9 @@ function invertir(){
 </script>
 
 <style scoped>
+.text-matte-dark {
+  color: #23272f;
+}
 .glass-modal {
   background: rgba(35, 39, 47, 0.18);
   border-radius: 1.5rem;
@@ -93,7 +91,6 @@ function invertir(){
   min-width: 0;
   max-width: 100%;
   animation: glassIn 0.4s cubic-bezier(.4,2,.6,1) both;
-  color: #23272f;
 }
 @keyframes glassIn {
   0% { opacity: 0; transform: scale(0.95); }

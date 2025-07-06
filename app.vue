@@ -1,5 +1,5 @@
 <template>
-  <title>Pagina web montiel</title>
+  <title>Glass Dashboard</title>
   <div>
     <NuxtPage/>
   </div>

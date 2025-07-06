@@ -20,11 +20,6 @@
       </div>
     </div>
   </div>
-<style scoped>
-.text-matte-dark {
-  color: #23272f;
-}
-</style>
 </template>
 
 <script setup>
@@ -54,9 +49,11 @@ if (data.value && data.value.results) {
   animation: glassIn 0.4s cubic-bezier(.4,2,.6,1) both;
   color: #23272f;
 }
+.text-matte-dark {
+  color: #23272f;
+}
 @keyframes glassIn {
   0% { opacity: 0; transform: scale(0.95); }
   100% { opacity: 1; transform: scale(1); }
 }
-
 </style>

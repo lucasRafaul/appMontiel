@@ -1,11 +1,7 @@
 <template>
   <div class="weather-glass-modal">
     <div class="weather-title">
-      <span class="emoji">🇦🇷</span>
-      <span class="emoji">☀️</span>
       <span class="main-title">Clima de Argentina</span>
-      <span class="emoji">🌧️</span>
-      <span class="emoji">⛅</span>
     </div>
     <div class="weather-main-grid">
       <!-- Columna de estados del clima -->
@@ -125,8 +121,6 @@ const weatherType = computed(() => {
 </script>
 
 <style scoped>
-/* Glassmorphism effect for the main container */
-/* Glassmorphism effect for the main container */
 /* Glassmorphism effect for the main container */
 .weather-glass-modal {
   border-radius: 1.5rem;
